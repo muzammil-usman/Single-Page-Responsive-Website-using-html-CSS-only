@@ -1,0 +1,33 @@
+.main {
+  margin-left: 175px;
+}
+.heading {
+  font-size: 2.3rem;
+}
+
+.image {
+  flex-direction: column;
+  text-align: center;
+}
+
+.image img {
+  width: 475px;
+  height: 300px;
+}
+
+#intro h2 {
+  padding: 10px;
+  text-align: center;
+}
+
+.input {
+  width: 60%;
+}
+
+#message {
+  width: 60%;
+}
+
+#send {
+  width: 20%;
+}

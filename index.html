@@ -5,9 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Website</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width : 800px)"
+      href="tablet.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:540px)"
+      href="phone.css"
+    />
   </head>
   <body>
     <!-- Navbar  -->
+
     <nav class="navbar">
       <ul>
         <li><a href="#Home">Home</a></li>
@@ -16,5 +27,77 @@
         <li><a href="#Contact">Contact</a></li>
       </ul>
     </nav>
+
+    <!-- Home  -->
+
+    <section id="Home">
+      <div class="main">
+        <h1 class="heading">I'm <br />Muzammil Usman</h1>
+        <button class="btn">Let's Start a Discussion</button>
+      </div>
+    </section>
+
+    <!-- About  -->
+
+    <section id="about">
+      <h1 class="heading">About Me</h1>
+      <div class="image">
+        <img src="img/hero.jpg" alt="" />
+        <div id="intro">
+          <h2>Muzammil Usman</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
+            voluptates. Odit assumenda cupiditate aut asperiores fuga magni
+            praesentium nam, neque hic perspiciatis porro eligendi molestiae.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad a enim,
+            velit magni, delectus ea dolore repudiandae rerum in maxime
+            doloremque consectetur. Itaque omnis delectus molestiae odit, a
+            rerum dolores quas quia saepe tempora, illo porro reprehenderit
+            consectetur magnam minus!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio  -->
+
+    <section id="porfolio">
+      <h1 class="heading">Portfolio</h1>
+      <div class="design">
+        <img src="portfolio/img1.jpg" alt="" />
+        <img src="portfolio/img2.jpg" alt="" />
+        <img src="portfolio/img3.jpg" alt="" />
+        <img src="portfolio/img5.jpg" alt="" />
+        <img src="portfolio/img6.jpg" alt="" />
+      </div>
+    </section>
+
+    <!-- Contact us -->
+
+    <section id="Contact">
+      <h1 class="heading">Contact us</h1>
+      <form action="" class="form-control">
+        <input
+          type="text"
+          name="input"
+          required
+          placeholder="Enter Your Name Here"
+        />
+        <input
+          type="email"
+          name="input"
+          required
+          placeholder="Enter Your Email Here"
+        />
+        <textarea
+          name="textarea"
+          id="message"
+          required
+          cols="30"
+          rows="10"
+        ></textarea>
+        <input type="submit" value="send" id="send" />
+      </form>
+    </section>
   </body>
 </html>

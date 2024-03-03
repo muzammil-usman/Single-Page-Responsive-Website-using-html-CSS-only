@@ -1,0 +1,39 @@
+.navbar ul {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#Home {
+  height: 720px;
+}
+
+.heading {
+  font-size: 1.7rem;
+}
+
+.image img {
+  align-items: center;
+  width: 300px;
+  height: 175px;
+}
+
+#intro h2 {
+  font-size: 0.15rem;
+}
+
+.design img {
+  width: 250px;
+  height: 150px;
+}
+
+.input {
+  width: 80px;
+}
+
+#message {
+  width: 400px;
+}
+
+#send {
+  width: 20%;
+}
